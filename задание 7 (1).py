@@ -4,7 +4,6 @@ n = int(input("кол-во элементов: "))
 a = []
 for i in range(0, n):
     a.append(int(input(f"число №{i+1}: ")))
-
 print("\nисходный массив: ", a)
 
 nums = dict()
@@ -19,7 +18,6 @@ if kol > 0:
     for key, value in nums.items():
         if value > 1:
             print(f"{key}: {value}")
-
 else:
     print("повторяющихся чисел нет")
 
