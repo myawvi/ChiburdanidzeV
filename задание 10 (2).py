@@ -12,7 +12,7 @@ with open("10-2_vvod.txt", "r") as f:
             m += 1
             tmp[j] = int(tmp[j])
         d.append(tmp)
-    print("Исходный массив:")
+    print("исходный массив:")
     for i in d:
         print(i)
     print(n, m)
@@ -24,7 +24,7 @@ with open("10-2_vivod.txt", "w") as f:
         for j in range(n):
             y[i].append(d[j][i])
     d = [i[::-1] for i in y]
-    k = int(input("Номер строки: "))
+    k = int(input("номер строки: "))
     d.sort(key=lambda x: x[n - k])
     y = []
     for i in range(n):  
