@@ -17,7 +17,7 @@ public class Zadanie6 {
 
             try {
 
-                int num = Integer.parseInt(input);
+                int number = Integer.parseInt(input);
                 
  
                 addToMemory(memory, number);
