@@ -6,12 +6,12 @@ public class Zadanie1 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите первую строку: ");
-        String firstString = scanner.nextLine();
+        String a = scanner.nextLine();
 
         System.out.print("Введите вторую строку: ");
-        String secondString = scanner.nextLine();
+        String b = scanner.nextLine();
 
-        boolean isEnding = isEnding(firstString, secondString);
+        boolean isEnding = isEnding(a, b);
    
         System.out.println(isEnding);
         
