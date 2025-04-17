@@ -16,8 +16,8 @@ int count = scanner.nextInt();
 
 System.out.println("Числа в полученном ряду:");
 for (int i = 0; i < count; i++) {
-int currentNumber = start + i * step;
-System.out.print(currentNumber + (i < count - 1 ? ", " : ""));
+int num = start + i * step;
+System.out.print(num + (i < count - 1 ? ", " : ""));
 }
 
 scanner.close();
