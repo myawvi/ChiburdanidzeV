@@ -8,9 +8,9 @@ public class Zadanie7 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите строку: ");
-        String inputLine = scanner.nextLine();
+        String input = scanner.nextLine();
 
-        String result = removeDuplicateWords(inputLine);
+        String result = removeDuplicateWords(input);
 
         System.out.println("Строка без повторяющихся слов: " + result);
 
