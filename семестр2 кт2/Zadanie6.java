@@ -17,13 +17,13 @@ public class Zadanie6 {
 
             try {
 
-                int number = Integer.parseInt(input);
+                int num = Integer.parseInt(input);
                 
  
                 addToMemory(memory, number);
                 
  
-                System.out.println("Текущее состояние памяти: ");
+                System.out.println("Состояние памяти: ");
                 for (Integer num : memory) {
                     System.out.print(num != null ? num : "EMPTY" + " ");
                 }
