@@ -8,9 +8,9 @@ public class Zadanie2 {
         System.out.print("Введите ваше имя: ");
         String name = scanner.nextLine();
 
-        String formattedName = formatName(name);
+        String form = formatName(name);
 
-        System.out.println("Привет, " + formattedName + "!");
+        System.out.println("Привет, " + form + "!");
         
         scanner.close();
     }
