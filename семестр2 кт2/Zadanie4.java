@@ -6,12 +6,12 @@ public class Zadanie4 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите первое число: ");
-        int firstNumber = scanner.nextInt();
+        int firstnum = scanner.nextInt();
         
         System.out.print("Введите второе число: ");
-        int secondNumber = scanner.nextInt();
+        int secondnum = scanner.nextInt();
 
-        int start = Math.min(firstNumber, secondNumber);
+        int start = Math.min(firstnum, secondnum);
         int step = start; 
 
         System.out.println("Квадраты чисел:");
@@ -19,8 +19,8 @@ public class Zadanie4 {
         int count = 5; 
 
         for (int i = 0; i < count; i++) {
-            int currentNumber = start + i * step;
-            int square = currentNumber * currentNumber;
+            int num = start + i * step;
+            int square = num * num;
             System.out.print(square + (i < count - 1 ? ", " : ""));
         }
 
