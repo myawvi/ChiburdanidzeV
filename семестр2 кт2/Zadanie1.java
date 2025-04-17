@@ -11,9 +11,9 @@ public class Zadanie1 {
         System.out.print("Введите вторую строку: ");
         String b = scanner.nextLine();
 
-        boolean isEnding = isEnding(a, b);
+        boolean ending = isEnding(a, b);
    
-        System.out.println(isEnding);
+        System.out.println(ending);
         
         scanner.close();
     }
