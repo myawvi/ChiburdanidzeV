@@ -6,11 +6,11 @@ public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("Введите строку: ");
-String inputString = scanner.nextLine();
+String input = scanner.nextLine();
 
-String resultString = removeVowels(inputString);
+String result = removeVowels(inputString);
  
-System.out.println("Строка без гласных: " + resultString);
+System.out.println("Строка без гласных: " + result);
         
 scanner.close();
 }
