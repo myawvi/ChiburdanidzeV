@@ -8,7 +8,7 @@ Scanner scanner = new Scanner(System.in);
 System.out.print("Введите строку: ");
 String input = scanner.nextLine();
 
-String result = removeVowels(inputString);
+String result = removeVowels(input);
  
 System.out.println("Строка без гласных: " + result);
         
